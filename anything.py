@@ -1,1 +1,1 @@
-print("niga")
+print("hello planet")
