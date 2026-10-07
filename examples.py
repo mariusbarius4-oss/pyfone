@@ -46,3 +46,29 @@ for i in numbers:
 
 
 print("The sum is", sum)
+
+# basic parity checker (parity checking means even or odd)
+
+if number % 2 == 0:
+    print("Even")
+else:
+    print("odd")
+
+
+# lists
+
+# define a list
+
+list1 = [12, 3, 6]
+empty_list = []
+
+# adding a new value
+
+list1.append(36)
+# resulting list = [12, 3, 6, 36]
+
+# position of an item
+list1[1] # <-- this would be the SECOND number in a list
+# WEIRD
+# zero indexed list :thumbs_up:
+print(list1[3]) #36
